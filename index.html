@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSD WEATHER</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="weather">
+       <img class="fit" src="./img/weather.jpg" alt="">
+       <div class="heading">
+
+           <h5>msdweather.com</h5>
+       </div>
+       <div class="weatherbox">
+            <div class="input">
+            
+                <input type="text" id="inputcity" placeholder="Enter the city name ">
+            
+                <svg onclick="getcity()" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                    class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>
+            </div>
+            <div class="city">
+                Weather in <span id="city">Tokio</span>
+            </div>
+            <div class="temperature">
+                <div id=""><span id="temp">34</span>&deg;C</div>
+            </div>
+                
+                <div class="png">
+                    <img  id="png" alt="">
+                
+<!-- <img src="" alt="" srcset=""> -->
+                </div>
+            <div class="desc">
+                
+                dhfehrhehrhhdjfhdhfioewu
+            </div>
+            <div class="wind">
+               Wind : <span id="wind"></span>km/h
+            </div>
+            <div class="humidity">
+
+                Humidity : <span id="humi"></span>%
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; MSDSANKET ||<a style="color:white" href="https://github.com/sanketpaul">sanketpaul.git</a>
+    </footer>
+    <script src="index.js"></script>
+    <script>
+        // window.onload=getweather()
+    </script>
+</body>
+</html>
